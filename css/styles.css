@@ -7,30 +7,6 @@
   height: 2349px;
   background: #ffffff;
 }
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
 .list {
   list-style: none;
 }
@@ -43,7 +19,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid black;
+  outline: 2px solid #f5f4fa;
 
   .list {
     list-style: none;
@@ -54,6 +30,8 @@ img {
   /*header*/
   .header {
     background: #ffffff;
+    padding-top: 24px;
+    padding-bottom: 25px;
   }
   .header-logo-blue {
     font-family: Raleway;
@@ -122,6 +100,8 @@ img {
   /*hero main section 1*/
   .hero-main {
     background: #2f303a;
+    padding-top: 280px;
+    padding-bottom: 210px;
   }
   .hero-main-title {
     font-style: normal;
@@ -149,6 +129,10 @@ img {
     border-radius: 4px;
   }
   /*hero main section 2*/
+  .hero-list {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 
   .hero-item-1 {
     font-family: Roboto;
@@ -227,6 +211,10 @@ img {
     color: #757575;
   }
   /*hero section 3*/
+  .hero {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   .hero-title {
     font-family: Roboto;
     font-style: normal;
@@ -250,6 +238,8 @@ img {
   /*hero section 4*/
   .hero-team {
     background: #f5f4fa;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
   .hero-team-item {
     font-family: Roboto;
@@ -363,6 +353,8 @@ img {
   /*footer*/
   .footer {
     background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .footer-logo-blue {
     font-family: Raleway;
@@ -413,6 +405,10 @@ img {
 
 /*portfolio*/
 /*hero portfolio*/
+.button-list {
+  padding-top: 174px;
+  padding-bottom: 50px;
+}
 .hero-button-1 {
   font-family: Roboto;
   font-style: normal;
@@ -474,6 +470,11 @@ img {
   color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
+}
+
+.hero-portfolio-list {
+  padding-top: 50px;
+  padding-bottom: 114px;
 }
 .hero-portfolio-pcs1 {
   background: url(portfolio1.jpg);
@@ -670,4 +671,6 @@ img {
 }
 .footer-portfolio {
   background: #2f303a;
+  padding: top 60px;
+  padding-bottom: 60px;
 }
