@@ -33,6 +33,13 @@
     padding-top: 24px;
     padding-bottom: 25px;
   }
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  .header-items:not(:last-child) {
+    margin: right 50px;
+  }
   .header-logo-blue {
     font-family: Raleway;
     font-style: normal;
@@ -41,6 +48,7 @@
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196f3;
+    margin-right: 94px;
   }
   .header-logo-black {
     font-family: Raleway;
@@ -68,6 +76,12 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+  }
+  .header-info {
+    margin-left: auto;
+  }
+  .header-info-mail {
+    margin-right: 50px;
   }
   .header-title-contacts {
     font-family: Roboto;
