@@ -122,10 +122,11 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+    margin-left: 494px;
+    margin-right: 494px;
   }
   .hero-main-button {
     font-family: Roboto;
@@ -141,11 +142,17 @@
     background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin-right: 700px;
+    margin-left: 700px;
   }
   /*hero main section 2*/
-  .hero-list {
+  .hero-list:not(last-child) {
     padding-top: 94px;
     padding-bottom: 94px;
+    display: flex;
+    align-items: center;
+    margin-left: 215px;
+    margin-right: 50px;
   }
 
   .hero-item-1 {
@@ -238,6 +245,14 @@
 
     letter-spacing: 0.03em;
     color: #212121;
+    padding-top: 289px;
+    padding-bottom: 50px;
+    margin-left: 612px;
+    margin-right: 612px;
+  }
+  .hero-team-photo {
+    display: flex;
+    align-items: center;
   }
   .hero-pcs-1 {
     background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
@@ -261,10 +276,18 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-
     letter-spacing: 0.03em;
-
     color: #212121;
+    margin-left: 668px;
+    margin-right: 668px;
+    padding-bottom: 512px;
+    padding-top: 94px;
+  }
+  .hero-team-photo:not(last-child) {
+    margin-left: 215px;
+    margin-right: 30;
+    padding-top: 186px;
+    padding-bottom: 202px;
   }
 
   .hero-team-pcs1 {
@@ -682,9 +705,34 @@
 /*footer*/
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-portfolio {
   background: #2f303a;
   padding: top 60px;
   padding-bottom: 60px;
+  margin-left: 215px;
+  margin-right: 1240px;
+}
+.footer-logo {
+  padding-bottom: 20px;
+}
+.footer-link1 {
+  padding-bottom: 120px;
+  padding-top: 111px;
+  margin-left: 215px;
+  margin-right: 1154px;
+}
+.footer-link2 {
+  padding-bottom: 90px;
+  padding-top: 9px;
+  margin-left: 215px;
+  margin-right: 1154px;
+}
+.footer-link3 {
+  padding-bottom: 60px;
+  padding-top: 9px;
+  margin-left: 215px;
+  margin-right: 1154px;
 }
