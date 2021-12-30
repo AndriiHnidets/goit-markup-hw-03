@@ -30,17 +30,23 @@
 }
 /*header*/
 .header {
-  background: #ffffff;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
 }
 .header-container {
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
+
 }
 .header-item {
   display: flex;
-  display: inline;
+  align-items: center;
+
 }
 .header-logo-blue {
   font-family: Raleway;
@@ -51,6 +57,8 @@
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-left: 215px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-logo-black {
   font-family: Raleway;
@@ -114,7 +122,10 @@
 .header-title-index-portfolio:focus {
   color: #2196f3;}
 .header-info {
-    margin-left: auto;
+  display: flex;
+  align-items: center;
+  
+  
   }
   .header-info-mail {
   }
@@ -154,20 +165,25 @@
 /*hero*/
 /*hero main section 1*/
 .hero-main {
-  background: #2f303a;
-  padding-top: 280px;
-  padding-bottom: 210px;
+
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
 }
 .hero-main-title {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-left: 494px;
-  margin-right: 494px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: 452px;
+margin-right: 452px;
 }
 .hero-main-button {
   font-family: Roboto;
@@ -175,16 +191,19 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
 
+  margin-left: 700px;
+  margin-right: 700px;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-right: 700px;
-  margin-left: 700px;
+
+}
+.hero-main-button:hover, .hero-main-button:focus{
+  background: #188CE8;
+  
 }
 /*hero main section 2*/
 .hero-list:not(last-child) {
@@ -192,8 +211,6 @@
   padding-bottom: 94px;
   display: flex;
   align-items: center;
-  margin-left: 215px;
-  margin-right: 50px;
 }
 
 .hero-item-1 {
@@ -274,7 +291,6 @@
 }
 /*hero section 3*/
 .hero {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .hero-title {
@@ -286,30 +302,35 @@
 
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 289px;
-  padding-bottom: 50px;
   margin-left: 612px;
-  margin-right: 612px;
 }
 .hero-team-photo {
+  display: flex;
+  align-items: center;
+}
+.hero-additional-pcs{
   display: flex;
   align-items: center;
 }
 .hero-pcs-1 {
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
+  width: 370px;
+  height: 294px;
 }
 .hero-pcs-2 {
   background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+  width: 370px;
+  height: 294px;
 }
 .hero-pcs-3 {
   background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+  width: 370px;
+  height: 294px;
 }
 /*hero section 4*/
 .hero-team {
-  background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+background: #F5F4FA;
 }
 .hero-team-item {
   font-family: Roboto;
@@ -321,19 +342,18 @@
   color: #212121;
   margin-left: 668px;
   margin-right: 668px;
-  padding-bottom: 512px;
+  padding-bottom: 50px;
   padding-top: 94px;
 }
 .hero-team-photo:not(last-child) {
-  margin-left: 215px;
-  margin-right: 30;
-  padding-top: 186px;
-  padding-bottom: 202px;
+  padding-bottom:94px ;
 }
 
 .hero-team-pcs1 {
   background: url(4853.jpg);
   border-radius: 0px;
+  width: 270px;
+  height: 260px;
 }
 .hero-team-name1 {
   font-family: Roboto;
@@ -358,6 +378,8 @@
 .hero-team-pcs2 {
   background: url(5844.jpg);
   border-radius: 0px;
+  width: 270px;
+  height: 260px;
 }
 .hero-team-name2 {
   font-family: Roboto;
@@ -383,6 +405,8 @@
 .hero-team-pcs3 {
   background: url(16166.jpg);
   border-radius: 0px;
+  width: 270px;
+  height: 260px;
 }
 .hero-team-name3 {
   font-family: Roboto;
@@ -407,6 +431,8 @@
 .hero-team-pcs4 {
   background: url(2968.jpg);
   border-radius: 0px;
+  width: 270px;
+  height: 260px;
 }
 .hero-team-name4 {
   font-family: Roboto;
@@ -484,7 +510,9 @@ color: rgba(255, 255, 255, 0.6);
 /*portfolio*/
 /*hero portfolio*/
 .button-list {
-padding-top: 174px;
+display: flex;
+align-items: center;
+padding-top: 94px;
 padding-bottom: 50px;
 }
 .hero-button-1 {
@@ -517,11 +545,26 @@ border-radius: 4px;
 }
 
 .hero-portfolio-list {
+display: flex;
+flex: wrap;
+margin-left: -30px;
+margin-bottom: -30px;
 padding-top: 50px;
-padding-bottom: 114px;
+padding-bottom: 94px;
+}
+
+img{
+  width: 100%;
+}
+.hero-portfolio-pcs{
+flex-basis: calc((100% - 30px) / 3);
+margin: 15px;
+
 }
 .hero-portfolio-pcs1 {
 background: url(portfolio1.jpg);
+width: 370px;
+height: 294px;
 }
 .hero-portfolio-title1 {
 font-family: Roboto;
@@ -543,6 +586,8 @@ color: #757575;
 }
 .hero-portfolio-pcs2 {
 background: url(portfolio2.jpg);
+width: 370px;
+height: 294px;
 }
 .hero-portfolio-title2 {
 font-family: Roboto;
@@ -564,6 +609,8 @@ color: #757575;
 }
 .hero-portfolio-pcs3 {
 background: url(portfolio-1.jpg);
+width: 370px;
+height: 294px;
 }
 .hero-portfolio-title3 {
 font-family: Roboto;
@@ -585,6 +632,8 @@ color: #757575;
 }
 .hero-portfolio-pcs4 {
 background: url(portfolio-2.jpg);
+width: 370px;
+height: 294px;
 }
 .hero-portfolio-title4 {
 font-family: Roboto;
@@ -606,6 +655,8 @@ color: #757575;
 }
 .hero-portfolio-pcs5 {
 background: url(portfolio5.jpg);
+width: 370px;
+height: 294px;
 }
 .hero-portfolio-title5 {
 font-family: Roboto;
@@ -627,6 +678,8 @@ color: #757575;
 }
 .hero-portfolio-pcs6 {
 background: url(111.jpg);
+width: 370px;
+height: 294px;
 }
 .hero-portfolio-title6 {
 font-family: Roboto;
@@ -648,6 +701,8 @@ color: #757575;
 }
 .hero-portfolio-pcs7 {
 background: url(portfolio7.jpg);
+width: 370px;
+height: 294px;
 }
 .hero-portfolio-title7 {
 font-family: Roboto;
@@ -669,6 +724,8 @@ color: #757575;
 }
 .hero-portfolio-pcs8 {
 background: url(portfolio8.jpg);
+width: 370px;
+height: 294px;
 }
 .hero-portfolio-title8 {
 font-family: Roboto;
@@ -690,6 +747,8 @@ color: #757575;
 }
 .hero-portfolio-pcs9 {
 background: url(2910404.jpg);
+width: 370px;
+height: 294px;
 }
 .hero-portfolio-title9 {
 font-family: Roboto;
