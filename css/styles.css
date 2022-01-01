@@ -33,20 +33,20 @@
 
 }
 .header-container {
+  width: 1200px;
   height: 80px;
   left: 0px;
   top: 0px;
   background: #FFFFFF;
-  display: flex;
-  align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
-
-}
-.header-item {
   display: flex;
   align-items: center;
-
+}
+.header-item{
+display: flex;
+}
+.header-items:not(:last-child){
 }
 .header-logo-blue {
   font-family: Raleway;
@@ -56,9 +56,11 @@
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
-  margin-left: 215px;
+  
+  /* margin-left: 215px;
   padding-top: 24px;
   padding-bottom: 25px;
+  */
 }
 .header-logo-black {
   font-family: Raleway;
@@ -68,6 +70,8 @@
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #000;
+}
+.header-index-logo{
   margin-right: 93px;
 }
 .header-title-studio {
@@ -91,6 +95,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  margin-right: 50px;
 }
 .header-title-index-studio:hover,
 .header-title-index-studio:focus {
@@ -104,6 +109,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  
 }
 .header-title-portfolio:hover,
 .header-title-portfolio:focus {
@@ -117,15 +123,14 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+  margin-right: 50px;
 }
 .header-title-index-portfolio:hover,
 .header-title-index-portfolio:focus {
   color: #2196f3;}
 .header-info {
   display: flex;
-  align-items: center;
-  
-  
+  margin-left: auto;
   }
   .header-info-mail {
   }
@@ -148,6 +153,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  margin-right: 50px;
 }
 .header-info-adres:hover,.header-info-adres:focus {
   color: #757575;}
@@ -165,7 +171,7 @@
 /*hero*/
 /*hero main section 1*/
 .hero-main {
-
+width: 1200px;
 height: 600px;
 left: 0px;
 top: 80px;
@@ -182,23 +188,31 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
-margin-left: 452px;
-margin-right: 452px;
+margin-left: 252px;
+margin-right: 252px;
+padding-top: 200px;
+padding-bottom: 30px;
+
+
 }
 .hero-main-button {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
 
-  margin-left: 700px;
-  margin-right: 700px;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-left: 532px;
+margin-right: 532px;
+
+
+
+ 
 
 }
 .hero-main-button:hover, .hero-main-button:focus{
@@ -206,13 +220,14 @@ margin-right: 452px;
   
 }
 /*hero main section 2*/
-.hero-list:not(last-child) {
+.hero-list{
   padding-top: 94px;
   padding-bottom: 94px;
   display: flex;
-  align-items: center;
 }
-
+.hero-list-item{
+margin-right: 30px;
+}
 .hero-item-1 {
   font-family: Roboto;
   font-style: normal;
@@ -299,10 +314,9 @@ margin-right: 452px;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-
   letter-spacing: 0.03em;
   color: #212121;
-  margin-left: 612px;
+  margin-left: 412px;
 }
 .hero-team-photo {
   display: flex;
@@ -310,18 +324,20 @@ margin-right: 452px;
 }
 .hero-additional-pcs{
   display: flex;
-  align-items: center;
 }
 .hero-pcs-1 {
-  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
-  mix-blend-mode: normal;
-  width: 370px;
-  height: 294px;
+width: 370px;
+height: 294px;
+background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+mix-blend-mode: normal;
+margin-right: 30px;
+margin-left: 15px;
 }
 .hero-pcs-2 {
   background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
   width: 370px;
   height: 294px;
+  margin-right: 30px;
 }
 .hero-pcs-3 {
   background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
@@ -340,13 +356,16 @@ background: #F5F4FA;
   line-height: 42px;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-left: 668px;
-  margin-right: 668px;
+  margin-left: 468px;
   padding-bottom: 50px;
   padding-top: 94px;
 }
-.hero-team-photo:not(last-child) {
-  padding-bottom:94px ;
+.hero-team-photo{
+  display: flex;
+  align-content: space-between;
+  margin-right: 30px;
+}
+.hero-team-block{
 }
 
 .hero-team-pcs1 {
@@ -364,6 +383,7 @@ background: #F5F4FA;
 
   letter-spacing: 0.03em;
   color: #212121;
+  text-align: center;
 }
 .hero-team-profession1 {
   font-family: Roboto;
@@ -371,7 +391,7 @@ background: #F5F4FA;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-
+text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -387,7 +407,7 @@ background: #F5F4FA;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
+text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -397,7 +417,7 @@ background: #F5F4FA;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-
+text-align: center;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -414,7 +434,7 @@ background: #F5F4FA;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
+text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -424,7 +444,7 @@ background: #F5F4FA;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-
+text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -440,7 +460,7 @@ background: #F5F4FA;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
+text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -450,7 +470,7 @@ background: #F5F4FA;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-
+text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -459,6 +479,10 @@ background: #F5F4FA;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 1200px;
+height: 252px;
+left: 0px;
+top: 2097px;
 }
 .footer-logo-blue {
   font-family: Raleway;
@@ -782,23 +806,11 @@ margin-left: 215px;
 margin-right: 1240px;
 }
 .footer-logo {
-padding-bottom: 20px;
+  padding-bottom:20px;
 }
-.footer-link1 {
-padding-bottom: 120px;
-padding-top: 111px;
-margin-left: 215px;
-margin-right: 1154px;
-}
-.footer-link2 {
-padding-bottom: 90px;
-padding-top: 9px;
-margin-left: 215px;
-margin-right: 1154px;
-}
-.footer-link3 {
-padding-bottom: 60px;
-padding-top: 9px;
-margin-left: 215px;
-margin-right: 1154px;
+.footer-index-list{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 9px;
+  
 }
