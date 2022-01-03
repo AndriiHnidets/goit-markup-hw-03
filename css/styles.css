@@ -57,10 +57,6 @@ display: flex;
   letter-spacing: 0.03em;
   color: #2196f3;
   
-  /* margin-left: 215px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  */
 }
 .header-logo-black {
   font-family: Raleway;
@@ -74,6 +70,13 @@ display: flex;
 .header-index-logo{
   margin-right: 93px;
 }
+.header-portfolio-list{
+  display: flex;
+  margin-right: 50px;
+}
+.header-portfolio-logo{
+  margin-right: 93px;
+}
 .header-title-studio {
   font-family: Roboto;
   font-style: normal;
@@ -82,6 +85,7 @@ display: flex;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+  margin-right: 50px;
 }
 .header-title-studio:hover,
 .header-title-studio:focus {
@@ -109,7 +113,7 @@ display: flex;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
-  
+  margin-right: 50px;
 }
 .header-title-portfolio:hover,
 .header-title-portfolio:focus {
@@ -476,13 +480,11 @@ text-align: center;
 }
 /*footer*/
 .footer {
-  background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 1200px;
+width: 1200px;
 height: 252px;
 left: 0px;
-top: 2097px;
+top: 1628px;
+background: #2F303A;
 }
 .footer-logo-blue {
   font-family: Raleway;
@@ -510,9 +512,14 @@ top: 2097px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding-bottom: 9px;
 }
 }
 .footer-mail {
+width: 231px;
+height: 21px;
+left: 215px;
+top: 1769px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -535,9 +542,10 @@ color: rgba(255, 255, 255, 0.6);
 /*hero portfolio*/
 .button-list {
 display: flex;
-align-items: center;
+justify-content: center;
 padding-top: 94px;
 padding-bottom: 50px;
+padding-right: 8px;
 }
 .hero-button-1 {
 font-family: Roboto;
@@ -569,20 +577,16 @@ border-radius: 4px;
 }
 
 .hero-portfolio-list {
-display: flex;
-flex: wrap;
-margin-left: -30px;
-margin-bottom: -30px;
-padding-top: 50px;
-padding-bottom: 94px;
+  display: flex;
+ flex-wrap: wrap;
+ padding-bottom: 94px;
 }
 
 img{
   width: 100%;
 }
 .hero-portfolio-pcs{
-flex-basis: calc((100% - 30px) / 3);
-margin: 15px;
+width:calc((100% - 30px) / 3);
 
 }
 .hero-portfolio-pcs1 {
@@ -802,15 +806,15 @@ padding-bottom: 60px;
 background: #2f303a;
 padding: top 60px;
 padding-bottom: 60px;
-margin-left: 215px;
-margin-right: 1240px;
 }
 .footer-logo {
   padding-bottom:20px;
 }
 .footer-index-list{
-  display: flex;
-  flex-direction: column;
   padding-bottom: 9px;
+  margin-left: -35px;
   
+}
+.footer-portfolio-list{
+  margin-left: -35px;
 }
