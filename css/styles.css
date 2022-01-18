@@ -39,6 +39,7 @@ html{
   background: #FFFFFF;
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ECECEC;
 }
 .header-container-2{
   display: flex;
@@ -199,29 +200,7 @@ margin-top: 0;
 
 }
 .hero-main-button {
-/*width: 136px;
-left: 732px;
-top: 440px;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 30px;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
- margin: auto;
- text-align: center;
-width: 200px;
-left: 700px;
-top: 430px;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-margin-left: 532px;
-margin-right: 532px;*/
-display: inline-block;
+display: flex;
 border-radius: 4px;
 padding: 10px 32px;
 font-weight: bold;
@@ -231,10 +210,9 @@ text-decoration: none;
 color: #FFFFFF;
 background-color: #2196F3;
 min-width: 200px;
-margin-left: 532px;
-margin-right: 532px;
-text-align: center;
  border: 1px solid transparent;
+ margin: 0 auto;
+ justify-content: center;
 
 
 }
@@ -341,7 +319,7 @@ text-align: center;
   color: #757575;
 }
 /*hero section 3*/
-.hero {
+.hero-description {
   margin-top: 0;
   padding-bottom: 94px;
 }
